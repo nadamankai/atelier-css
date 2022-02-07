@@ -1,0 +1,92 @@
+body{
+    display:flex;
+    flex-direction:column;
+    margin: 0;
+}
+#photo{
+    background-image: url("images/flash_img.png");
+    background-repeat: no-repeat;
+    height:440px;
+}
+h3{
+    color:red;
+}
+main {
+    max-width:947px ;
+    align-self: center;
+}
+#lien a:link{
+    color:red;
+}
+#lien a:hover:after
+{ content:" » "; }
+
+section{
+    justify-content: space-around;
+    display :flex;
+    flex-wrap :wrap;
+    align-items: flex-end;
+}
+main>div,main>section{
+    width: 100%;
+    margin: 0;
+
+}
+footer>img{
+    width: 100%;
+
+}
+header{
+    height:54.5px;
+}
+header>img{
+    width: 100%;
+
+}
+hearder,footer {
+    width: 100%;
+}
+
+
+ul {
+    margin: 0;
+    display: flex;
+    background-color : #89210A ;
+    height: 65px;
+    list-style-type : none;
+    justify-content: space-around;
+    padding: 0;
+}
+
+ul li{
+    text-align: center;
+    font-size: 1.5rem;
+    color: aliceblue;
+    padding-top: 17px;
+    width: 20%;
+
+
+}
+h5{
+    text-align: center;
+}
+section>div {
+    width: 236px;
+    padding-top: 20px;
+}
+#text{
+    width: 454px;
+    align-self: flex-start;
+    padding-top: 45px;
+
+}
+ul li:hover{
+    background-image: url("images/rings.png");
+    background-repeat: no-repeat;
+    background-color:black;
+    background-position: right;
+
+    /*padding: 55px 0px 20px 0px;*/
+
+
+}
