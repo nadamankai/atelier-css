@@ -15,11 +15,6 @@ main {
     max-width:947px ;
     align-self: center;
 }
-#lien a:link{
-    color:red;
-}
-#lien a:hover:after
-{ content:" » "; }
 
 section{
     justify-content: space-around;
